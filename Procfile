@@ -1,1 +1,1 @@
-worker node streaming2.js
+worker node bot.js
