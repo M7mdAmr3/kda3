@@ -20,4 +20,4 @@ client.on('ready', function(){
     });
     }, 5000);
 });
-client.login("NDAxNDE2Mzg0MjE2Njk0Nzg1.DtpUpQ.TsHAQBrrW2P6ClRkP7e1iTnHk-c");
+client.login("NTI3MDA2NDUxMjY5MzY5ODc3.XPot-w.2eH3JUZy3JNpQfoUaggbA1sFYGU");
