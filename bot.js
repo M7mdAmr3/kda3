@@ -10,7 +10,7 @@ client.on('ready', function(){
  game: { 
     type: 1,
      url: 'https://www.twitch.tv/itsfakehehe',
-    name: 'Mohamed...',
+    name: 'ERROR 404',
     application_id: '595981556963737611',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
