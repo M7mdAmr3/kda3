@@ -9,8 +9,10 @@ client.on('ready', function(){
     client.user.setPresence({
  game: { 
     type: 1,
-     url: 'https://www.twitch.tv/itsfakehehe',
-    name: 'I'm ALWAYS SAD...',
+     url: 'https://www.twitch.tv/itsfakehehe'
+    details: 'I hope to die'
+    state:'And will be SAD Forever' ,
+    name: 'I`m ALWAYS SAD...',
     application_id: '595981556963737611',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
