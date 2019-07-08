@@ -9,11 +9,11 @@ client.on('ready', function(){
     client.user.setPresence({
  game: { 
     type: 1,
-     url: 'https://www.twitch.tv/itsfakehehe'
-    details: 'I hope to die'
-    state:'And will be SAD Forever' ,
+     url: 'https://www.twitch.tv/itsfakehehe',
     name: 'I`m ALWAYS SAD...',
-    application_id: '595981556963737611',
+    details: 'test'
+    state: 'test'
+    application_id: '597714548157448192',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
   
@@ -22,4 +22,4 @@ client.on('ready', function(){
     });
     }, 5000);
 });
-client.login("NTI3MDA2NDUxMjY5MzY5ODc3.XPot-w.2eH3JUZy3JNpQfoUaggbA1sFYGU");
+client.login("NDQ2MTIzOTE5MDIwMTMwMzA1.XRw48A.eNZB9B6tb-bv1-jTh8JEGwLp-Zo");
