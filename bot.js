@@ -11,7 +11,7 @@ client.on('ready', function(){
     type: 1,
      url: 'https://www.twitch.tv/itsfakehehe',
     name: 'Minecraft',
-    application_id: '597714548157448192',
+    application_id: '595584836266229760',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
   
