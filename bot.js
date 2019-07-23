@@ -4,7 +4,7 @@ client.on('ready', function(){
  console.log(`Logged in as ${client.user.tag}!`);
     
    // var s = ['483063515981283354','483063446376677386','483063378726879232','483063354332545045','483063463179190293'];
-    var s = ['595588027095449630','597784307469385738','595588138382917632'];
+    var s = ['603202488413323265','603202488413323265','603202488413323265'];
     setInterval(function (){
     client.user.setPresence({
  game: { 
@@ -20,4 +20,4 @@ client.on('ready', function(){
     });
     }, 5000);
 });
-client.login("NTI3MDA2NDUxMjY5MzY5ODc3.XPot-w.2eH3JUZy3JNpQfoUaggbA1sFYGU");
+client.login("NTkxODYyMjM4MjY1MjEyOTI4.XQ282g.OKtif5mXe91CtydXsA9ls500M1Q");
