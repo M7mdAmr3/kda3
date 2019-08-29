@@ -18,7 +18,7 @@ AhmedSniper.on('ready', function(){
     application_id: '477187715658547201',
      assets: {
          large_image:   `${s[Math.floor(Math.random() * s.length)]}`, //Ahmed Sniper
-        large_text: `I'm mohamed :)` , //Ahmed Sniper
+        large_text: `test )` , //Ahmed Sniper
        
     }
   }
@@ -38,4 +38,4 @@ AhmedSniper.on('ready', function(){
 
 //نهايت الكود الى من صنع : AhmedSniper
 
-AhmedSniper.login('NTI3MDA2NDUxMjY5MzY5ODc3.XU8HOA.bQfpcBD4vKOkOO6U2WaaWDXCAF4'); //حط هنا التوكن Ahmed Sniper
+AhmedSniper.login('NTI3MDA2NDUxMjY5MzY5ODc3.XWgCUA.gg-Dy7KWvgZE_6K-OutksVXxL4k'); //حط هنا التوكن Ahmed Sniper
