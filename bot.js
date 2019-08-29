@@ -1,23 +1,41 @@
 const Discord = require('discord.js')
-const client = new Discord.Client();
-client.on('ready', function(){
- console.log(`Logged in as ${client.user.tag}!`);
+const AhmedSniper = new Discord.Client();
+
+
+AhmedSniper.on('ready', function(){
+ console.log(`Logged in as ${AhmedSniper.user.tag}!`);
     
    // var s = ['483063515981283354','483063446376677386','483063378726879232','483063354332545045','483063463179190293'];
-    var s = ['603202488413323265','603202488413323265','603202488413323265'];
+   var s = ['483055660209012736','480169573530861578','483055655800930315'];
     setInterval(function (){
-    client.user.setPresence({
+    AhmedSniper.user.setPresence({
  game: { 
-    type: 1,
-     url: 'https://www.twitch.tv/itsfakehehe',
-    name: 'Destroyer.',
-    application_id: '603201167178203136',
+    type: 1, // Ahmed Sniper
+    name: 'playing test', //Ahmed Sniper
+   state: `test`,
+    url: 'https://www.twitch.tv/01010948769', // Ahmed Sniper
+   details: 'testin',
+    application_id: '477187715658547201',
      assets: {
-         large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
-  
+         large_image:   `${s[Math.floor(Math.random() * s.length)]}`, //Ahmed Sniper
+        large_text: `I'm mohamed :)` , //Ahmed Sniper
+       
     }
   }
     });
-    }, 5000);
+    }, 1000); //Ahmed Sniper هنيكك لو غيرت حاجة فى اسمى 
 });
-client.login("NTIzNzk0OTAyMzM3OTc4Mzc5.XQ27iA.K3YqOkdREfWmNNGeOC61JxfMTXM");
+
+
+
+
+
+
+
+
+
+
+
+//نهايت الكود الى من صنع : AhmedSniper
+
+AhmedSniper.login('NTI3MDA2NDUxMjY5MzY5ODc3.XU8HOA.bQfpcBD4vKOkOO6U2WaaWDXCAF4'); //حط هنا التوكن Ahmed Sniper
