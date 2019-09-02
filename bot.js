@@ -11,19 +11,19 @@ AhmedSniper.on('ready', function(){
     AhmedSniper.user.setPresence({
  game: { 
     type: 1, // Ahmed Sniper
-    name: 'playing test', //Ahmed Sniper
+    name: 'playing test', 
    state: `test`,
-    url: 'https://www.twitch.tv/01010948769', // Ahmed Sniper
+    url: 'https://www.twitch.tv/01010948769',
    details: 'testin',
     application_id: '477187715658547201',
      assets: {
-         large_image:   `${s[Math.floor(Math.random() * s.length)]}`, //Ahmed Sniper
-        large_text: `test )` , //Ahmed Sniper
+         large_image:   `${s[Math.floor(Math.random() * s.length)]}`,
+        large_text: `test )` ,
        
     }
   }
     });
-    }, 1000); //Ahmed Sniper هنيكك لو غيرت حاجة فى اسمى 
+    }, 1000); 
 });
 
 
@@ -35,7 +35,4 @@ AhmedSniper.on('ready', function(){
 
 
 
-
-//نهايت الكود الى من صنع : AhmedSniper
-
-AhmedSniper.login('NTI3MDA2NDUxMjY5MzY5ODc3.XWgCUA.gg-Dy7KWvgZE_6K-OutksVXxL4k'); //حط هنا التوكن Ahmed Sniper
+token.login("NTI3MDA2NDUxMjY5MzY5ODc3.XWiVog.TaCrTK0Wm5AjM-2kj7-uLYhaquY");
